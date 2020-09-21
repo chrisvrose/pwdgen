@@ -6,7 +6,7 @@ const crypto = require('crypto');
  * @param {boolean} symbols Whether to use base64 or not
  * @returns {string} Generated password
  */
-module.exports = function generatePassword(size,symbols){
+module.exports = function generatePassword(size=128,symbols=false){
     const rnd = crypto.randomBytes(size);
     if(symbols){
         return rnd.toString('base64');

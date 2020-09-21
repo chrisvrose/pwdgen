@@ -24,7 +24,6 @@
   "homepage": "https://github.com/chrisvrose/pwdgen#readme",
   "devDependencies": {
     "@types/yargs": "^15.0.5",
-    "chai": "^4.2.0",
     "mocha": "^8.1.3"
   },
   "dependencies": {
